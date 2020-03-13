@@ -1,0 +1,135 @@
+body{
+    padding-top:50px;
+    padding-bottom:20px;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.navbar-nav li a
+{
+    font-weight:600;
+}
+.navbar-toggle
+{
+    outline: none !important;
+}
+
+/*--------------banner section----------*/
+#banner
+{
+    background-image:linear-gradient(to right, #337dae,#c5f2ec);
+    color:#fff;
+    padding-top: 5%;
+}
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+/*--------------services section----------*/
+#services {
+    padding: 80px 0;
+}
+
+.services
+{
+    padding:20px;
+}
+
+.services h3
+{
+    padding: 5px;
+    margin-top:25px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: #337dae;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #337dae;
+    height: 8px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/*-------------Admin page financial section--------------*/
+#finance
+{
+    padding: 80px 0;
+}
+.spending
+{
+    padding: 20px;
+    border: 2px solid #70aaf1;
+
+}
+.spending h3 
+{
+    margin-top: 25px;
+    text-transform: uppercase;
+    }
+
+#reportbutton
+{
+    float:right;
+    padding:5px;
+    margin-top:5px;
+    font-weight:100;
+    position:relative;
+
+}
+
+/*Add to inventory*/
+#update_inventory
+{
+    padding-left:500px;
+}
